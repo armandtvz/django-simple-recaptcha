@@ -30,7 +30,6 @@ pip install git+https://github.com/armandtvz/django-simple-recaptcha.git
 ```
 GOOGLE_RECAPTCHA_SECRET_KEY = ''
 GOOGLE_RECAPTCHA_SITE_KEY = ''
-GOOGLE_RECAPTCHA_VERIFY_URL = ''
 ```
 
 
