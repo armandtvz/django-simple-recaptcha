@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+        <meta charset="utf-8">
+        <title>reCAPTCHA example</title>
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+
+
+<body>
+        <div class="g-recaptcha" data-sitekey="{{ request.recaptcha_site_key }}"></div>
+
+        {# Or use the checkbox template #}
+        {% include "recaptcha/checkbox.html" %}
+</body>
+
+
+
+
+</html>
