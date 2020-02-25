@@ -106,4 +106,4 @@ venv.bak/
 
 test_project
 manage.py
-secret/
+gitignore/
